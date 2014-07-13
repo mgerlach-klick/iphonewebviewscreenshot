@@ -12,6 +12,7 @@
 		6920422E1972B504001961FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6920422C1972B504001961FC /* Main.storyboard */; };
 		692042301972B504001961FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6920422F1972B504001961FC /* Images.xcassets */; };
 		6920423C1972B504001961FC /* TakeScreenshotPoCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6920423B1972B504001961FC /* TakeScreenshotPoCTests.swift */; };
+		692042461972B790001961FC /* ScreenshotExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692042451972B790001961FC /* ScreenshotExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		692042351972B504001961FC /* TakeScreenshotPoCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeScreenshotPoCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6920423A1972B504001961FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6920423B1972B504001961FC /* TakeScreenshotPoCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeScreenshotPoCTests.swift; sourceTree = "<group>"; };
+		692042451972B790001961FC /* ScreenshotExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				692042281972B504001961FC /* AppDelegate.swift */,
 				6920422A1972B504001961FC /* ViewController.swift */,
+				692042451972B790001961FC /* ScreenshotExtension.swift */,
 				6920422C1972B504001961FC /* Main.storyboard */,
 				6920422F1972B504001961FC /* Images.xcassets */,
 				692042261972B503001961FC /* Supporting Files */,
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6920422B1972B504001961FC /* ViewController.swift in Sources */,
+				692042461972B790001961FC /* ScreenshotExtension.swift in Sources */,
 				692042291972B504001961FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
